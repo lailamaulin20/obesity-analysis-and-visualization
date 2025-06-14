@@ -58,7 +58,7 @@ from collections import Counter                       # Untuk menghitung frekuen
 
 # Membaca file dataset ObesityDataSet.csv dan menyimpannya ke dalam DataFrame bernama df
 # Ganti path jika file berada di lokasi lain
-df = pd.read_csv('/content/ObesityDataSet.csv')
+df = pd.read_csv('ObesityDataSet.csv') 
 
 
 # In[155]:
